@@ -1,26 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Bio</title>
+    <style>
+        body {
+            background-color: #efeee7;
+            color:#333333;
+            font-size: 18px;
+            line-height: 150%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:0;
+            padding:0;
+             }
+        header {
+            background-color:#333333;
+            }
+        h1{
+            color:#eee;
+            font-size: 28px;
+            padding: 20px 0;
+            margin: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h2{
+            font-size:24px;
+        }
+        a {
+            color:#d21034;
+        }
+        .container{
+            width:1024px;
+            margin:0 auto;
+        }
+        #main-bio{
+            float: left;
+            width: 70%;
+        }
+        #contact-info{
+            float: left;
+            width: 30%;
+        }
+        #bio-image{
+            float: left;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <br>
-        <h2>Alex Taggart</h2>
-    <img src="https://avatars0.githubusercontent.com/u/63368154?s=460&u=6eec463860a6556efde450e7eccf8014337b8529&v=4" width="200" height="200"/>
-    <div>
-        <p>I am 28 years old. Like I said before I went to school for teaching mathematics </p>
-        <p> but decided to take a different path. I like coding because you get to create </p>
-        <p>something out of nothing. I can't wait to combine my math and coding skills </p> 
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+
+    <div class="container"></div>
+    
+        <section id="main-bio">    
+           
+            <h2>Alex Taggart</h2>
+        
+            <img id="bio-image" src="https://avatars0.githubusercontent.com/u/63368154?s=460&u=6eec463860a6556efde450e7eccf8014337b8529&v=4" width="200" height="200"/>
+   
+            <p>I am 28 years old. Like I said before I went to school for teaching mathematics </p>
+            <p> but decided to take a different path. I like coding because you get to create </p>
+            <p>something out of nothing. I can't wait to combine my math and coding skills </p> 
+        </section>
+   
+        <section id="contact-info"> 
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email:  <a href="mailto:christag392@gmail.com" target="_blank">Christag392@gmail.com</a> </li>
+                <li> GitHub:  <a href="https://github.com/AlexTagg392" target="_blank">AlexTagg392</a> </li>
+                <li>Portfolio: <a href="#" target="_blank">Coming Soon</a></li>
+            </ul>
+        </section>
     </div>
 
-    <h1>Contact Info</h1>
-    <ul>
-        <li>Email:  <a href="mailto:christag392@gmail.com" target="_blank">Christag392@gmail.com</a> </li>
-        <li> GitHub:  <a href="https://github.com/AlexTagg392" target="_blank">AlexTagg392</a> </li>
-        <li>Portfolio: <a href="#" target="_blank">Coming Soon</a></li>
-    </ul>
 </body>
+
 </html>
